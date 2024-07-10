@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/rules.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <title>Rules</title>
+</head>
+<body>
+    <header class="sticky">
+        <div class="navbar">
+            <div class="bar-left">
+                <h1>Hitman Cricket Academy</h1>
+            </div>
+            <div class="bar-right">
+                <ul>
+                    <li><a href="/index.html"  target="_blank">Home</a></li>
+                    <li><a href="/About.html" target="_blank">About</a></li>
+                    <li><a href="/contact.html" target="_blank">Contact</a></li>
+                    <li><a href="/rules.html" target="_blank">Rules and Regulation</a></li>
+                </ul>
+                <button class="sign-up" onclick="document.getElementById('id01').style.display='block'"
+                    style="width:auto;">Sign
+                    Up</button>
+                <div id="id01" class="modal">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                        title="Close Modal">&times;</span>
+                    <form class="modal-content" action="/action_page.php">
+                        <div class="container">
+                            <h1>Sign Up</h1>
+                            <p>Please fill in this form to create an account.</p>
+                            <hr>
+                            <label for="email"><b>Email</b></label>
+                            <br>
+                            <input type="mail" placeholder="Enter Email" name="email" required>
+                            <br>
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+
+                            <label for="psw-repeat"><b>Repeat Password</b></label>
+                            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+                            <label>
+                                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">
+                                Remember me
+                            </label>
+
+                            <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms &
+                                    Privacy</a>.</p>
+
+                            <div class="clearfix">
+                                <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                                    class="cancelbtn">Cancel</button>
+                                <button type="submit" class="signupbtn">Sign Up</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <img src="/background.avif" alt="">
+    <div class="regulation">
+        <h1>Rules and Regulation</h1>
+    </div>
+    <div class="rules-container">
+        <ul>
+            <li class="fas fa-chevron-right"><a href="#">Coaching will be provided to kids of age 6 to 18 yrs</a></li>
+            <li class="fas fa-chevron-right"><a href="#">Trainees will have to report in SCA white cricket clothes.</a></li>
+            <li class="fas fa-chevron-right"><a href="#">Trainees should be punctual on every coaching day.</a></li>
+            <li class="fas fa-chevron-right"><a href="#">Trainees will bring their own Cricket Kit and protective gears.</a></li>
+            <li class="fas fa-chevron-right"><a href="#">Trainees must maintain discipline during the practice.</a></li>
+            <li class="fas fa-chevron-right"><a href="#">Trainees will have to take care of their belongings. SCA shall not be responsible for any loss.</a></li>
+            <li class="fas fa-chevron-right"><a href="#">First-aid Kit will be provided during the practice session at all centres.</a></li>
+            <li class="fas fa-chevron-right"><a href="#">The trainee would be registered as per their selected centre only.</a></li>
+            
+        </ul>
+    </div>
+    <footer>
+        <div class="end-area">
+            <div class="touch">
+                <h2>Get in Touch</h1>
+            </div>
+            <div id="location">
+                <i class='fas fa-map-marker-alt'></i>
+                <p>Pali Road, Dehri-on-sone</p>
+            </div>
+            <div id="phone">
+                <i class='fas fa-mobile-alt'></i>
+                <p>8825301173</p>
+            </div>
+            <div id="mail">
+                <i class='far fa-envelope-open'></i>
+                <p>domain@gmail.com</p>
+            </div>
+            <div class="media">
+                <i class='fab fa-facebook-f' id="f-book"></i>
+                <i class='fab fa-twitter' id="tweet"></i>
+                <i class='fab fa-linkedin-in' id="link1"></i>
+                <i class='fab fa-youtube' id="tube"></i>
+            </div>
+            <h2 id="q1">Quick Links</h2>
+            <div id="ab1">
+                <i class="fas fa-angle-right"></i>
+                <p>About Us</p>
+            </div>
+            <div id="c-u">
+                <i class="fas fa-angle-right"></i>
+                <p>Contact Us</p>
+            </div>
+            <div id="o-s">
+                <i class="fas fa-angle-right"></i>
+                <p>Our Services</p>
+            </div>
+            <div id="p-1">
+                <i class="fas fa-angle-right"></i>
+                <p>Privacy Policy</p>
+            </div>
+            <div id="t-c">
+                <i class="fas fa-angle-right"></i>
+                <p>Terms & Conditions</p>
+            </div>
+            <div class="pics">
+                <h2>Photo Gallery</h2>
+            </div>
+            <img src="/practice_gallery/pic_1.jpeg" class="img-1">
+            <img src="/practice_gallery/pic_2.jpeg" class="img-2">
+            <img src="/practice_gallery/pic_3.webp" class="img-3">
+            <img src="/practice_gallery/pic_4.webp" class="img-4">
+            <img src="/cover.jpg" class="img-5">
+            <img src="/wicket.jpg" class="img-6">
+            <div class="letter">
+                <h2>Newsletter</h2>
+            </div>
+            <div id="N1">
+                <p>Lorem ipsum dolor sit, hic! Sin</p>
+            </div>
+            <input type="text" placeholder="Enter Mail" id="letter-1">
+            <button class="btn-letter">Sign Up</button>
+
+
+        </div>
+    </footer>
+</body>
+</html>

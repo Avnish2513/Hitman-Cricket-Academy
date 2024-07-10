@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="/about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <title>About_us</title>
+</head>
+
+<body>
+    <header class="sticky">
+        <div class="navbar">
+            <div class="bar-left">
+                <h1>Hitman Cricket Academy</h1>
+            </div>
+            <div class="bar-right">
+                <ul>
+                    <li><a href="/index.html" >Home</a></li>
+                    <li><a href="/About.html" target="_blank">About</a></li>
+                    <li><a href="/contact.html" target="_blank">Contact</a></li>
+                    <li><a href="/rules.html" target="_blank">Rules and Regulation</a></li>
+                </ul>
+                <button class="sign-up" onclick="document.getElementById('id01').style.display='block'"
+                    style="width:auto;">Sign
+                    Up</button>
+                <div id="id01" class="modal">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                        title="Close Modal">&times;</span>
+                    <form class="modal-content" action="/action_page.php">
+                        <div class="container">
+                            <h1>Sign Up</h1>
+                            <p>Please fill in this form to create an account.</p>
+                            <hr>
+                            <label for="email"><b>Email</b></label>
+                            <br>
+                            <input type="mail" placeholder="Enter Email" name="email" required>
+                            <br>
+
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+
+                            <label for="psw-repeat"><b>Repeat Password</b></label>
+                            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+                            <label>
+                                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">
+                                Remember me
+                            </label>
+
+                            <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms &
+                                    Privacy</a>.</p>
+
+                            <div class="clearfix">
+                                <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                                    class="cancelbtn">Cancel</button>
+                                <button type="submit" class="signupbtn">Sign Up</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="body">
+        <h1>ABOUT US</h1>
+    </div>
+    <div class="offer-container">
+
+        <h2>What We Offer</h2>
+        <h3>Institutional Academy</h3>
+        <p>We intend picking up few of the boys from schools and hopefully the ‘best’ and ‘most talented’ can possibly
+            represent the country in the under 19 category, thereafter sky is the limit.
+        </p>
+        <img src="/practice-1.jpg" class="offer-pic">
+        <div class="offer-2">
+            <h3>Individual Academy</h3>
+            <p>Individual coaching sessions can be arranged with Madan Lal one to one coaching specifically for the
+                individual.</p>
+        </div>
+        <div class="offer-3">
+            <h3>Professional Equipments</h3>
+            <p>From cricket bats to batting gloves, from batting helmets to wickets keeping gloves, whatever is the
+                need, Madan Lal Academy fulfills them.</p>
+        </div>
+    </div>
+    <div class="why-container">
+        <img src="/fielding.webp" class="why-pic">
+        <h2>Why Us</h2>
+        <p>From time to time prominent international players have visited the academy to give tips to our budding
+            youngster players like Rahul Dravid, Ricky Ponting, Kapil Dev, Sandeep Patil, Ashish Nehra and Ashok
+            Malhotra.
+        </p>
+        <div class="why-1">
+            <h3>Days of Practising</h3>
+        </div>
+        <div id="p1">
+            <i class='fas fa-chevron-right'></i>
+            <p>Timings:Summers 3:30-7:00pm</p>
+        </div>
+        <div id="p2">
+            <i class='fas fa-chevron-right'></i>
+            <p>Summer Holidays:7:30am-10:30am</p>
+        </div>
+        <div id="p3">
+            <i class='fas fa-chevron-right'></i>
+            <p>Winters:2:45pm-5:45pm</p>
+        </div>
+        <div id="p4">
+            <i class='fas fa-chevron-right'></i>
+            <p>Days of Practice: Thursday, Friday, Saturday and Sunday (Mornings) 8am – 11am</p>
+        </div>
+    </div>
+    <footer>
+        <div class="end-area">
+            <div class="touch">
+                <h2>Get in Touch</h1>
+            </div>
+            <div id="location">
+                <i class='fas fa-map-marker-alt'></i>
+                <p>Pali Road, Dehri-on-sone</p>
+            </div>
+            <div id="phone">
+                <i class='fas fa-mobile-alt'></i>
+                <p>8825301173</p>
+            </div>
+            <div id="mail">
+                <i class='far fa-envelope-open'></i>
+                <p>domain@gmail.com</p>
+            </div>
+            <div class="media">
+                <i class='fab fa-facebook-f' id="f-book"></i>
+                <i class='fab fa-twitter' id="tweet"></i>
+                <i class='fab fa-linkedin-in' id="link1"></i>
+                <i class='fab fa-youtube' id="tube"></i>
+            </div>
+            <h2 id="q1">Quick Links</h2>
+            <div id="ab1">
+                <i class="fas fa-angle-right"></i>
+                <p>About Us</p>
+            </div>
+            <div id="c-u">
+                <i class="fas fa-angle-right"></i>
+                <p>Contact Us</p>
+            </div>
+            <div id="o-s">
+                <i class="fas fa-angle-right"></i>
+                <p>Our Services</p>
+            </div>
+            <div id="p-1">
+                <i class="fas fa-angle-right"></i>
+                <p>Privacy Policy</p>
+            </div>
+            <div id="t-c">
+                <i class="fas fa-angle-right"></i>
+                <p>Terms & Conditions</p>
+            </div>
+            <div class="pics">
+                <h2>Photo Gallery</h2>
+            </div>
+            <img src="/practice_gallery/pic_1.jpeg" class="img-1">
+            <img src="/practice_gallery/pic_2.jpeg" class="img-2">
+            <img src="/practice_gallery/pic_3.webp" class="img-3">
+            <img src="/practice_gallery/pic_4.webp" class="img-4">
+            <img src="/cover.jpg" class="img-5">
+            <img src="/wicket.jpg" class="img-6">
+            <div class="letter">
+                <h2>Newsletter</h2>
+            </div>
+            <div id="N1">
+                <p>Lorem ipsum dolor sit, hic! Sin</p>
+            </div>
+            <input type="text" placeholder="Enter Mail" id="letter-1">
+            <button class="btn-letter">Sign Up</button>
+
+
+        </div>
+    </footer>
+    
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

@@ -1,0 +1,743 @@
+.navbar {
+    /* border: 2px solid yellow; */
+    height: 77px;
+    background-color: #c8c6c3;
+    box-sizing: border-box;
+    margin-top: -6px;
+}
+
+.bar-left {
+    /* border: 2px solid green; */
+    height: 80px;
+    width: 381px;
+    margin-left: 12px;
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.bar-left h1 {
+    margin-left: 10px;
+    color: #f3603d;
+    margin-top: 8px;
+    font-size: 31px;
+}
+
+.bar-right {
+    /* border: 2px solid green; */
+    display: flex;
+    width: 700px;
+    margin-left: 767px;
+    margin-top: -96px;
+}
+
+.bar-right ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 23px;
+}
+
+.bar-right ul li {
+    list-style: none;
+    margin: 13px;
+    cursor: pointer;
+
+}
+
+.bar-right ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.bar-right ul li a:hover {
+    color: #f3603d;
+    transition: 0.46;
+}
+
+.bar-right ul li a.active {
+    color: #f3603d;
+}
+
+/*sign up*/
+input[type=mail]{
+    width: 97%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=password] {
+    width: 97%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for all buttons */
+.sign-up {
+    background-color: #f3603d;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 15px;
+    border-radius: 8px;
+    margin-left: 28px;
+    height: 50px;
+    margin-top: 27px;
+}
+
+.sign-up:hover {
+    opacity: 1;
+    background-color: #f57d5f;
+    transition: 0.50s;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #74f413;
+    float: left;
+    width: 50%;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+
+.signupbtn {
+    float: right;
+    width: 50%;
+    padding: 14px 20px;
+    background-color: #f74f07;
+    
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+
+    .cancelbtn,
+    .signupbtn {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .navbar {
+        background-color: aqua;
+    }
+
+    .bar-left {
+        font-size: 13px;
+        width: 200px;
+
+    }
+
+}
+
+/* The sticky class is added to the navbar */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+/* BODY-AREA */
+
+img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 29px;
+    opacity: 0.87;
+}
+
+.regulation {
+    position: absolute;
+    /* border: 2px solid white; */
+    color: #FF5722;
+    left: 581px;
+    top: 151px;
+}
+.rules-container  {
+    position: absolute;
+    /* border: 2px solid white; */
+    height: 496px;
+    width: 909px;
+    top: 258px;
+    left: 285px;
+}
+.rules-container ul{
+    margin: 12px;
+}
+.rules-container li {
+    list-style: none;
+    text-decoration: none;
+    color: #FF5722;
+    margin-top: 30px;
+}
+.rules-container li a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* END-AREA */
+.end-area {
+    position: relative;
+    /* border: 2px solid magenta; */
+    height: 350px;
+    background-color: #03153b;
+    top: 25px;
+}
+
+.touch h2 {
+    position: absolute;
+    /* border: 2px solid greenyellow; */
+    width: 200px;
+    height: 37px;
+    padding-left: 25px;
+    font-size: 26px;
+    top: 45px;
+    left: 108px;
+    color: white;
+}
+
+#location {
+    position: absolute;
+    /* border: 2px solid red; */
+    height: 39px;
+    width: 245px;
+    top: 100px;
+    left: 109px;
+    color: white;
+}
+
+#location i {
+    font-size: 24px;
+    position: absolute;
+    top: 31px;
+    left: 23px;
+    color: white;
+}
+
+#location p {
+    padding-left: 56px;
+    position: absolute;
+    top: 17px;
+    font-size: 17px;
+    color: white;
+    left: 12px;
+}
+
+#phone {
+    position: absolute;
+    /* border: 2px solid rgb(96, 5, 176); */
+    height: 39px;
+    width: 245px;
+    top: 138px;
+    left: 109px;
+    color: white;
+}
+
+#phone i {
+    font-size: 24px;
+    position: absolute;
+    top: 35px;
+    left: 23px;
+    color: white;
+}
+
+#phone p {
+    padding-left: 56px;
+    position: absolute;
+    top: 22px;
+    font-size: 17px;
+    color: white;
+    left: 12px;
+}
+
+#mail {
+    position: absolute;
+    /* border: 2px solid rgb(233 185 35); */
+    height: 39px;
+    width: 245px;
+    top: 176px;
+    left: 109px;
+    color: white;
+}
+
+#mail i {
+    font-size: 24px;
+    position: absolute;
+    top: 39px;
+    left: 23px;
+    color: white;
+}
+
+#mail p {
+    padding-left: 56px;
+    position: absolute;
+    top: 28px;
+    font-size: 17px;
+    color: white;
+    left: 12px;
+}
+
+.media {
+    position: absolute;
+    /* border: 2px solid greenyellow; */
+    width: 248px;
+    height: 42px;
+    left: 118px;
+    top: 218px;
+    color: white;
+}
+
+
+#f-book {
+    margin: 12px;
+    border: 2px solid black;
+    font-size: 20px;
+    width: 31px;
+    height: 29px;
+    margin-top: 41px;
+    padding-left: 7px;
+    padding-top: 3px;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+#f-book:hover {
+    background-color: #f1f1f1;
+    color: #f3603d;
+    transition: 0.80s ease;
+}
+
+#tweet {
+    border: 2px solid black;
+    font-size: 20px;
+    width: 31px;
+    height: 29px;
+    margin-top: 4px;
+    padding-left: 4px;
+    padding-top: 3px;
+    border-radius: 25px;
+    margin-left: -8px;
+    color: white;
+}
+
+#tweet:hover {
+    background-color: #f1f1f1;
+    color: #f3603d;
+    transition: 0.80s ease;
+}
+
+#link1 {
+    border: 2px solid black;
+    font-size: 20px;
+    width: 31px;
+    height: 29px;
+    margin-top: 4px;
+    padding-top: 3px;
+    border-radius: 25px;
+    margin-left: 3px;
+    padding-left: 5px;
+    color: white;
+}
+
+#link1:hover {
+    background-color: #f1f1f1;
+    color: #f3603d;
+    transition: 0.80s ease;
+}
+
+#tube {
+    border: 2px solid black;
+    font-size: 20px;
+    width: 31px;
+    height: 29px;
+    margin-top: 4px;
+    padding-top: 3px;
+    border-radius: 25px;
+    margin-left: 3px;
+    padding-left: 3px;
+    color: white;
+}
+
+#tube:hover {
+    background-color: #f1f1f1;
+    color: #f3603d;
+    transition: 0.80s ease;
+}
+
+#q1 {
+    position: absolute;
+    /* border: 2px solid greenyellow; */
+    width: 200px;
+    height: 37px;
+    padding-left: 25px;
+    font-size: 26px;
+    top: 45px;
+    left: 475px;
+    color: white;
+}
+
+#ab1 {
+    position: absolute;
+    /* border: 2px solid red; */
+    width: 243px;
+    height: 32px;
+    top: 124px;
+    left: 475px;
+    color: white;
+}
+
+#ab1 i {
+    padding-left: 13px;
+    padding-top: 6px;
+    color: white;
+}
+
+#ab1 p {
+
+    padding-left: 13px;
+    position: absolute;
+    top: -10px;
+    left: 26px;
+    color: white;
+    cursor: pointer;
+}
+
+#ab1 p:hover {
+    color: #f3603d;
+    transition: 0.50s;
+}
+
+#c-u {
+    position: absolute;
+    /* border: 2px solid red; */
+    width: 243px;
+    height: 32px;
+    top: 155px;
+    left: 475px;
+    color: white;
+}
+
+#c-u i {
+    padding-left: 13px;
+    padding-top: 6px;
+    color: white;
+}
+
+#c-u p {
+    padding-left: 13px;
+    position: absolute;
+    top: -10px;
+    left: 26px;
+    color: white;
+    cursor: pointer;
+}
+
+#c-u p:hover {
+    color: #f3603d;
+    transition: 0.50s;
+}
+
+#o-s {
+    position: absolute;
+    /* border: 2px solid red; */
+    width: 243px;
+    height: 32px;
+    top: 187px;
+    left: 475px;
+    color: white;
+}
+
+#o-s i {
+    padding-left: 13px;
+    padding-top: 6px;
+    color: white;
+}
+
+#o-s p {
+    padding-left: 13px;
+    position: absolute;
+    top: -10px;
+    left: 26px;
+    color: white;
+    cursor: pointer;
+}
+
+#o-s p:hover {
+    color: #f3603d;
+    transition: 0.50s;
+}
+
+#p-1 {
+    position: absolute;
+    /* border: 2px solid red; */
+    width: 243px;
+    height: 32px;
+    top: 219px;
+    left: 475px;
+    color: white;
+}
+
+#p-1 i {
+    padding-left: 13px;
+    padding-top: 6px;
+    color: white;
+}
+
+#p-1 p {
+    padding-left: 13px;
+    position: absolute;
+    top: -10px;
+    left: 26px;
+    color: white;
+    cursor: pointer;
+}
+
+#p-1 p:hover {
+    color: #f3603d;
+    transition: 0.50s;
+}
+
+#t-c {
+    position: absolute;
+    /* border: 2px solid red; */
+    width: 243px;
+    height: 32px;
+    top: 248px;
+    left: 475px;
+    color: white;
+}
+
+#t-c i {
+    padding-left: 13px;
+    padding-top: 6px;
+    color: white;
+}
+
+#t-c p {
+    padding-left: 13px;
+    position: absolute;
+    top: -10px;
+    left: 26px;
+    color: white;
+    cursor: pointer;
+}
+
+#t-c p:hover {
+    color: #f3603d;
+    transition: 0.50s;
+}
+
+.pics h2 {
+    position: absolute;
+    /* border: 2px solid greenyellow; */
+    width: 200px;
+    height: 37px;
+    padding-left: 25px;
+    font-size: 26px;
+    top: 40px;
+    left: 836px;
+    color: white;
+}
+
+.img-1 {
+    height: 67px;
+    width: 92px;
+    top: 108px;
+    left: 779px;
+    position: absolute;
+    border: 5px solid rgb(157 161 154);
+    color: white;
+}
+
+.img-2 {
+    height: 67px;
+    width: 92px;
+    top: 109px;
+    left: 894px;
+    position: absolute;
+    border: 5px solid rgb(157 161 154);
+    color: white;
+}
+
+.img-3 {
+    height: 67px;
+    width: 92px;
+    top: 109px;
+    left: 1006px;
+    position: absolute;
+    border: 5px solid rgb(157 161 154);
+    color: white;
+}
+
+.img-4 {
+    height: 67px;
+    width: 92px;
+    top: 195px;
+    left: 779px;
+    position: absolute;
+    border: 5px solid rgb(157 161 154);
+    color: white;
+}
+
+.img-5 {
+    height: 67px;
+    width: 92px;
+    top: 195px;
+    left: 894px;
+    position: absolute;
+    border: 5px solid rgb(157 161 154);
+    color: white;
+}
+
+.img-6 {
+    height: 67px;
+    width: 92px;
+    top: 195px;
+    left: 1007px;
+    position: absolute;
+    border: 5px solid rgb(157 161 154);
+}
+
+.letter h2 {
+    position: absolute;
+    /* border: 2px solid greenyellow; */
+    width: 200px;
+    height: 37px;
+    padding-left: 25px;
+    font-size: 26px;
+    top: 40px;
+    left: 1162px;
+    color: white;
+}
+
+#N1 p {
+    position: absolute;
+    /* border: 2px solid greenyellow; */
+    width: 215px;
+    height: 45px;
+    padding-left: 25px;
+    font-size: 18px;
+    top: 99px;
+    left: 1162px;
+    color: white;
+}
+
+.end-area input {
+    position: absolute;
+    /* border: 2px solid greenyellow; */
+    width: 238px;
+    height: 51px;
+    padding-left: 25px;
+    font-size: 18px;
+    top: 191px;
+    left: 1161px;
+    color: white;
+    background-color: #03153b;
+}
+
+.btn-letter {
+    position: absolute;
+    width: 100px;
+    height: 46px;
+    top: 195px;
+    left: 1328px;
+    border-radius: 8px;
+    color: white;
+    background-color: #f3603d;
+    cursor: pointer;
+}
+
+.btn-letter:hover {
+    background-color: #d36341;
+    transition: 0.75s;
+}
